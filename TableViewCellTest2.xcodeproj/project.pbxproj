@@ -13,6 +13,10 @@
 		95D684FB248B0A2000AD0202 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95D684F9248B0A2000AD0202 /* Main.storyboard */; };
 		95D684FD248B0A2400AD0202 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95D684FC248B0A2400AD0202 /* Assets.xcassets */; };
 		95D68500248B0A2400AD0202 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95D684FE248B0A2400AD0202 /* LaunchScreen.storyboard */; };
+		95D6850B248B1F4600AD0202 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D68509248B1F4600AD0202 /* TableViewCell.swift */; };
+		95D6850C248B1F4600AD0202 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95D6850A248B1F4600AD0202 /* TableViewCell.xib */; };
+		95D6850F248B26A600AD0202 /* FieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D6850D248B26A600AD0202 /* FieldTableViewCell.swift */; };
+		95D68510248B26A600AD0202 /* FieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95D6850E248B26A600AD0202 /* FieldTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		95D684FC248B0A2400AD0202 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95D684FF248B0A2400AD0202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95D68501248B0A2400AD0202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95D68509248B1F4600AD0202 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		95D6850A248B1F4600AD0202 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		95D6850D248B26A600AD0202 /* FieldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldTableViewCell.swift; sourceTree = "<group>"; };
+		95D6850E248B26A600AD0202 /* FieldTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FieldTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				95D684FC248B0A2400AD0202 /* Assets.xcassets */,
 				95D684FE248B0A2400AD0202 /* LaunchScreen.storyboard */,
 				95D68501248B0A2400AD0202 /* Info.plist */,
+				95D68509248B1F4600AD0202 /* TableViewCell.swift */,
+				95D6850A248B1F4600AD0202 /* TableViewCell.xib */,
+				95D6850D248B26A600AD0202 /* FieldTableViewCell.swift */,
+				95D6850E248B26A600AD0202 /* FieldTableViewCell.xib */,
 			);
 			path = TableViewCellTest2;
 			sourceTree = "<group>";
@@ -126,6 +138,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				95D68500248B0A2400AD0202 /* LaunchScreen.storyboard in Resources */,
+				95D68510248B26A600AD0202 /* FieldTableViewCell.xib in Resources */,
+				95D6850C248B1F4600AD0202 /* TableViewCell.xib in Resources */,
 				95D684FD248B0A2400AD0202 /* Assets.xcassets in Resources */,
 				95D684FB248B0A2000AD0202 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				95D684F8248B0A2000AD0202 /* ViewController.swift in Sources */,
+				95D6850B248B1F4600AD0202 /* TableViewCell.swift in Sources */,
+				95D6850F248B26A600AD0202 /* FieldTableViewCell.swift in Sources */,
 				95D684F4248B0A2000AD0202 /* AppDelegate.swift in Sources */,
 				95D684F6248B0A2000AD0202 /* SceneDelegate.swift in Sources */,
 			);
